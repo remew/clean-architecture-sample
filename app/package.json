@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "^1.4.3",
@@ -16,5 +17,8 @@
     "http-errors": "^1.7.1",
     "jade": "^1.11.0",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
