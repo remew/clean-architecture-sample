@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./bin/www",
-    "test": "jest"
+    "test": "npm build && jest"
   },
   "dependencies": {
     "cookie-parser": "^1.4.3",
