@@ -13,4 +13,5 @@ export default class UserEntity {
 
 export interface UserRepository {
   getById(id: string): Promise<UserEntity>;
+  save(user: UserEntity): Promise<UserEntity>;
 }
